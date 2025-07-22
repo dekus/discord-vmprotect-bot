@@ -1,0 +1,26 @@
+{
+  "name": "discord-custombuild",
+  "version": "1.0.0",
+  "description": "Discord bot for custom builds with VMProtect",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "cross-env NODE_ENV=development nodemon src/index.js",
+    "setup": "node setup.js",
+    "install-bot": "node install.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.2.0",
+    "node-fetch": "^2.6.9"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+} 
